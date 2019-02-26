@@ -1,0 +1,50 @@
+<body style="margin: 0">
+  <div class="background" />
+
+  <div class="song-1">
+    <audio controls>
+      <source src="loops/school.mp3" type="audio/mpeg">
+    </audio>
+
+    <div class="title">school</div>
+  </div>
+
+  <div class="song-2">
+    <audio controls>
+      <source src="loops/neptune.mp3" type="audio/mpeg">
+    </audio>
+
+    <div class="title">neptune</div>
+</body>
+
+<style>
+audio {
+  float: left;
+}
+
+.background {
+  width: 100%;
+  height: 100%;
+  background-image: url('themoose.jpg');
+  background-size: fill;
+}
+
+.song-1 {
+  position: absolute;
+  top: 250px;
+  left: 150px;
+}
+
+.song-2 {
+  position: absolute;
+  top: 345px;
+  left: 150px;
+}
+
+.title {
+  color: white;
+  float: left;
+  font-size: 48px;
+  margin-left: 20px;
+}
+</style>
